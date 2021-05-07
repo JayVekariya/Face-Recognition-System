@@ -53,7 +53,7 @@ while True:
             display_string=str(confidence)+'% Confidence it is user'
             cv2.putText(image,display_string,(100,50),cv2.FONT_HERSHEY_COMPLEX,1,(150,320,155),2)
 
-        if confidence>=76:
+        if confidence>=85:
             cv2.putText(image,"Unlocked", (230, 450), cv2.FONT_HERSHEY_COMPLEX, 1, (0, 255, 0), 2)
             cv2.imshow('Face Identifier',image)
 
